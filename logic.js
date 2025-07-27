@@ -49,7 +49,7 @@ function startmeditation1()
     const audio1 = document.getElementById("myaudio1");
     document.getElementById("textstatus").innerHTML="Audio Status:Playing";
     audio1.play();
-    var x=(audio1.duration-120)*100;//convert to milliseconds
+    var x=(audio1.duration-10)*1000;//convert to milliseconds
    
 
     setTimeout(() => {
@@ -69,7 +69,7 @@ function startmeditation2()
     const audio1 = document.getElementById("myaudio2");
     document.getElementById("textstatus").innerHTML="Audio Status:Playing";
     audio1.play();
-    var x=(audio1.duration-120)*100;//convert to milliseconds
+    var x=(audio1.duration-10)*1000;//convert to milliseconds
    
 
     setTimeout(() => {
@@ -89,7 +89,7 @@ function startmeditation3()
     const audio1 = document.getElementById("myaudio3");
     document.getElementById("textstatus").innerHTML="Audio Status:Playing";
     audio1.play();
-    var x=(audio1.duration-120)*100;//convert to milliseconds
+    var x=(audio1.duration-10)*1000;//convert to milliseconds
    
 
     setTimeout(() => {
@@ -108,7 +108,7 @@ function startmeditation4()
     const audio1 = document.getElementById("myaudio4");
     document.getElementById("textstatus").innerHTML="Audio Status:Playing";
     audio1.play();
-    var x=(audio1.duration-120)*1000;//convert to milliseconds
+    var x=(audio1.duration-10)*1000;//convert to milliseconds
    
 
     setTimeout(() => {
@@ -128,7 +128,7 @@ function startmeditation5()
     const audio1 = document.getElementById("myaudio5");
     document.getElementById("textstatus").innerHTML="Audio Status:Playing";
     audio1.play();
-    var x=(audio1.duration-120)*100;//convert to milliseconds
+    var x=(audio1.duration-10)*1000;//convert to milliseconds
    
 
     setTimeout(() => {
