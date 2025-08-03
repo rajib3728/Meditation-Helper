@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concentration Helper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+</head>
+<body class="pages">
+    <audio src="song5.mp3" id="conmusic" loop></audio>
+    <center>
+        <button class="button button3" onclick="openhome()"> ◀ Back </button>
+    <h1 CLASS="text" >Concentration Helper</h1>
+    
+   
+    
+        <img src="logo2.png" alt="Logo" class="logo">
+        <br>
+      
+      
+      <br>
+     <button class="button button3"  onclick="fun1()">Start Concentration</button>
+      
+      <br>
+      <p id ="textstatus1">Audio Status:Not Started</p>
+      
+
+     <script >
+          var x1=document.getElementById("conmusic");
+          var x2=document.getElementById("textstatus1");
+     let isplay=false;
+    function fun2()
+    {
+       x1.play();
+       isplay=true;
+         x2.innerHTML="Audio Status: Playing";
+    }
+    function fun3()
+    {
+        isplay=false;
+       x1.pause();
+       x2.innerHTML="Audio Status: Paused";
+       
+    }
+    function fun1()
+    {
+        if(isplay)
+        {
+            fun3();
+        }
+       else{
+           fun2();
+       }
+    }
+     </script>
+   
+       </center> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

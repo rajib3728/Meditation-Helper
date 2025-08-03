@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meditation Helper</title>
     <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
     
+        <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#about"><i class="fa fa-fw fa-user"></i>About</a>
+  <a href="devtool.html"><i class="fa fa-fw fa-wrench"></i>Dev tool</a>
+  
+  <a href="https://forms.gle/uaJ8FBSgvA28nTPU6"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+  </div>
+     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
     
     <center>
-        
-    <button class="button button1" onclick="openhome()">◀ Back</button>
+
+  
+    <button class="button button1" onclick="openhome()"><i class="fa fa-fw fa-home"></i>Back</button>
+
+ 
+
+
+    
     <br>
     <br>
     <h3>Meditation Helper Level</h3>
@@ -22,18 +37,45 @@
     <button class="button button2" onclick="page1()">
        Level 1 
     </button>
-    <button class="button button2" onclick="page2()">
+    <button class="button button2" onclick="login1()">
        Level 2 
     </button>
-    <button class="button button2" onclick="page3()">
+    <button class="button button2" onclick="login1()">
        Level 3 
     </button>
-    <button class="button button2" onclick="page4()">
+    <button class="button button2" onclick="login1()">
        Level 4
     </button>
-    <button class="button button2" onclick="page5()">
+    <button class="button button2" onclick="login1()">
        Level 5
     </button>
+
+    <h2>Other Services</h2>
+
+    <div class="container" >
+    
+        <a href="concentration.html"><img src="logo2.png" alt="Logo" class="logo">
+        
+       </a>
+        
+         
+      </div>
+
+    <h2 >About</h2>
+    <p id="about"> 
+
+In today’s fast-paced world, where stress, distractions, and constant stimulation are the norm, 
+meditation offers a vital refuge for mental clarity and emotional balance. It’s not just a spiritual practice—it’s a 
+scientifically backed method to enhance focus, reduce anxiety, and promote overall well-being. By turning inward and 
+cultivating mindfulness, meditation helps us reconnect with the present moment, quiet the mental chatter, and build 
+resilience against life’s pressures. Whether you're navigating academic challenges, professional demands, or personal growth, 
+meditation empowers you to respond with calm and clarity rather than react impulsively. It's a simple yet profound tool for 
+nurturing inner peace in a chaotic world.
+
+It is found binural beats are a powerful tool for enhancing meditation practices.
+These auditory illusions, created by playing two slightly different frequencies in each ear, can induce various mental.
+
+</p>
     </center>
     
      <script src="logic.js"></script>
