@@ -199,7 +199,7 @@ let hours = now.getHours();
 let minutes = now.getMinutes();
 let pass=hours+"xyz"+minutes+"#!";
 let inp=document.getElementById("devpass").value;
-if (1) {
+if (inp===pass) {
   document.getElementById("text2").innerHTML="success ";
   document.getElementById("devtable").style.display="flex";
   document.getElementById("devtable").style.backgroundColor="black";
@@ -215,4 +215,5 @@ else{
     alert("access denied");
     document.getElementById("text2").innerHTML="access denied";
 }
+
 }
