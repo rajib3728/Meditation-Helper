@@ -197,7 +197,7 @@ function openDevTool() {
    let now = new Date();
 let hours = now.getHours();
 let minutes = now.getMinutes();
-let pass=hours+"xyz"+minutes+"#!";
+let pass="medi"+"xyz"+"hp@el"+"#!";
 let inp=document.getElementById("devpass").value;
 if (inp==pass) {
   document.getElementById("text2").innerHTML="success ";
@@ -212,9 +212,10 @@ if (inp==pass) {
   document.getElementById("dev1").style.display="block";
 }
 else{
-    alert("access denied");
+    alert("access denied.");
     document.getElementById("text2").innerHTML="access denied";
 }
 
 }
+
 
