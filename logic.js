@@ -1,10 +1,20 @@
 function openworkpage() {
     window.open("work.html");
     window.close("index.html");
+    window.close("page1.html");
+    window.close("page2.html"); 
+    window.close("page3.html");
+    window.close("page4.html");
+    window.close("page5.html");
 }
 function openhome() {
     window.open("index.html");
     window.close("work.html");
+    window.close("page1.html");
+    window.close("page2.html"); 
+    window.close("page3.html");
+    window.close("page4.html");
+    window.close("page5.html");
 }
 function openlevel(){
      window.open("work.html");
@@ -217,6 +227,7 @@ else{
 }
 
 }
+
 
 
 
