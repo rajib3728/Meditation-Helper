@@ -197,7 +197,7 @@ function openDevTool() {
    let now = new Date();
 let hours = now.getHours();
 let minutes = now.getMinutes();
-let pass="medi"+"xyz"+"hp@el"+"#!";
+let pass="medixyzhp@el#!";
 let inp=document.getElementById("devpass").value;
 if (inp==pass) {
   document.getElementById("text2").innerHTML="success ";
@@ -217,5 +217,6 @@ else{
 }
 
 }
+
 
 
