@@ -1,3 +1,17 @@
+function openmainpage() {
+    window.open("main.html");
+    window.close("work.html");
+    window.close("index.html");
+    window.close("page1.html");
+    window.close("page2.html");
+    window.close("page3.html");
+    window.close("page4.html");
+    window.close("page5.html");
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("concentration.html");
+}
+
 function openworkpage() {
     window.open("work.html");
     window.close("index.html");
@@ -6,6 +20,26 @@ function openworkpage() {
     window.close("page3.html");
     window.close("page4.html");
     window.close("page5.html");
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("concentration.html");
+    window.close("main.html");
+
+}
+
+function openworkpage2()
+{
+    window.open("work2.html");  
+    window.close("index.html");
+    window.close("work.html");
+    window.close("page1.html");
+    window.close("page2.html"); 
+    window.close("page3.html");
+    window.close("page4.html");
+    window.close("page5.html");
+    window.close("login.html");
+    window.close("concentration.html");
+    window.close("main.html");
 }
 function openhome() {
     window.open("index.html");
@@ -15,44 +49,90 @@ function openhome() {
     window.close("page3.html");
     window.close("page4.html");
     window.close("page5.html");
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("concentration.html");
+    window.close("main.html");
 }
 function openlevel(){
-     window.open("work.html");
+     window.open("main.html");
     window.close("index.html");
     window.close("page1.html");
     window.close("page2.html"); 
     window.close("page3.html");
     window.close("page4.html");
     window.close("page5.html");
-    
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("work.html");
+    window.close("concentration.html");
 }
 function page1() {
     window.open("page1.html");
+    window.close("page2.html");
+    window.close("page3.html");
+    window.close("page4.html");
+    window.close("page5.html");
     window.close("work.html");
     window.close("index.html");
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("main.html");
+    window.close("concentration.html");
 }
 function page2() {
     window.open("page2.html");
+    window.close("page1.html");
+    window.close("page3.html");
+    window.close("page4.html");
+    window.close("page5.html");
     window.close("work.html");
     window.close("index.html");
-
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("main.html");
+    window.close("concentration.html");
 }
 function page3() {
     window.open("page3.html");
+    window.close("page1.html");
+    window.close("page2.html"); 
+    window.close("page4.html");
+    window.close("page5.html");
     window.close("work.html");
     window.close("index.html");
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("main.html");
+    window.close("concentration.html");
    
 }
 function page4() {
     window.open("page4.html");
+
+    window.close("page1.html");
+    window.close("page2.html"); 
+    window.close("page3.html");
+    window.close("page5.html");
     window.close("work.html");
     window.close("index.html");
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("main.html");
+    window.close("concentration.html");
 }
 function page5() {
     window.open("page5.html");
-    window.close("pass.html");
+    window.close("page1.html");
+    window.close("page2.html"); 
+    window.close("page3.html");
+    window.close("page4.html");
+    window.close("main.html");
     window.close("work.html");
     window.close("index.html");
+    window.close("work2.html");
+    window.close("login.html");
+    window.close("concentration.html");
 }
 
 function login1() {
@@ -63,6 +143,10 @@ function login1() {
     window.close("page3.html");
     window.close("page4.html");
     window.close("page5.html");
+    Window.close("work2.html");
+    Window.close("work.html");
+    window.close("main.html");
+    window.close("concentration.html");
 
 }
 
