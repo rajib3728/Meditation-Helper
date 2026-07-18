@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meditation Helper</title>
+     <link rel="shortcut icon" type="image/png" href="logo.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#about"><i class="fa fa-fw fa-user"></i>About</a>
+  <a href="devtool.html"><i class="fa fa-fw fa-wrench"></i>Dev tool</a>
+  
+  <a href="https://forms.gle/uaJ8FBSgvA28nTPU6"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+  </div>
+     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+    <center>
+        <button class="button button1" onclick="openhome()"><i class="fa fa-fw fa-home"></i>Back</button>
+
+        <h2>Nature Music</h2>
+        <p id="textstatus1">Relax and meditate with soothing music</p>
+
+        <audio   loop id="waterdrop" src="waterdrop.mp3">
+           
+            Your browser does not support the audio element.
+        </audio>
+        <audio   loop id="rain" src="rainsound.mp3">
+           
+            Your browser does not support the audio element.
+        </audio>
+        <audio   loop id="river" src="riversound.mp3">
+           
+            Your browser does not support the audio element.
+        </audio>
+        <audio   loop id="birds" src="birdsound.mp3">
+           
+            Your browser does not support the audio element.
+        </audio>
+        <div style="display:flex;flex-direction:column;align-items:center;">
+         
+    <div class="container2" onclick="watersound()">
+        <img src="waterdrop.png" alt="Logo" class="logo2">
+        
+        <h3 onclick="watersound()">Water</h3>
+    </div>
+    <br>
+    <div class="container2" onclick="rainsound()">
+              <img src="rain.png" alt="Logo" class="logo2">
+         
+          <h3 onclick="rainsound()">Rain</h3>
+    </div>
+
+    <br>
+    <div class="container2" onclick="riversound()">
+              <img src="river.png" alt="Logo" class="logo2">
+         
+          <h3 onclick="riversound()">River</h3>
+    </div>
+    <br>
+    <div class="container2" onclick="birdsound()">
+              <img src="bird.png" alt="Logo" class="logo2">
+         
+          <h3 onclick="birdsound()">Birds</h3> 
+    </div>
+    <br>
+    </div>
+
+       <h2 >About</h2>
+    <p id="about"> 
+
+In today’s fast-paced world, where stress, distractions, and constant stimulation are the norm, 
+meditation offers a vital refuge for mental clarity and emotional balance. It’s not just a spiritual practice—it’s a 
+scientifically backed method to enhance focus, reduce anxiety, and promote overall well-being. By turning inward and 
+cultivating mindfulness, meditation helps us reconnect with the present moment, quiet the mental chatter, and build 
+resilience against life’s pressures. Whether you're navigating academic challenges, professional demands, or personal growth, 
+meditation empowers you to respond with calm and clarity rather than react impulsively. It's a simple yet profound tool for 
+nurturing inner peace in a chaotic world.
+
+It is found binural beats are a powerful tool for enhancing meditation practices.
+These auditory illusions, created by playing two slightly different frequencies in each ear, can induce various mental.
+
+</p>
+    
+    </center>
+
+<script>
+
+         var x1=document.getElementById("waterdrop");
+          var x2=document.getElementById("textstatus1");
+     let isplay=false;
+    function waterdropfun2()
+    {
+       x1.play();
+       isplay=true;
+         x2.innerHTML="Audio Status: Playing";
+    }
+    function waterdropfun3()
+    {
+        isplay=false;
+       x1.pause();
+       x2.innerHTML="Audio Status: Paused";
+       
+    }
+    function watersound()
+    {
+        if(isplay)
+        {
+            waterdropfun3();
+        }
+       else{
+           waterdropfun2();
+       }
+    }
+    var y1=document.getElementById("rain");
+          var y2=document.getElementById("textstatus1");
+     let isplay1=false;
+    function rainfun2()
+    {
+       y1.play();
+       isplay1=true;
+         y2.innerHTML="Audio Status: Playing";
+    }
+    function rainfun3()
+    {
+        isplay1=false;
+       y1.pause();
+       y2.innerHTML="Audio Status: Paused";
+       
+    }
+    function rainsound()
+    {
+        if(isplay1)
+        {
+            rainfun3();
+        }
+       else{
+           rainfun2();
+       }
+    }
+    var z1=document.getElementById("river");
+          var z2=document.getElementById("textstatus1");
+     let isplay2=false;
+    function riverfun2()
+    {
+       z1.play();
+       isplay2=true;
+         z2.innerHTML="Audio Status: Playing";
+    }
+    function riverfun3()
+    {
+        isplay2=false;
+       z1.pause();
+       z2.innerHTML="Audio Status: Paused";
+       
+    }
+    function riversound()
+    {
+        if(isplay2)
+        {
+            riverfun3();
+        }
+       else{
+           riverfun2();
+       }
+    }
+    var a1=document.getElementById("birds");
+          var a2=document.getElementById("textstatus1");
+     let isplay3=false;
+    function birdfun2()
+    {
+         a1.play();
+         isplay3=true;
+            a2.innerHTML="Audio Status: Playing";
+     }
+    function birdfun3()
+    {
+        isplay3=false;
+         a1.pause();
+         a2.innerHTML="Audio Status: Paused";
+         
+     }
+    function birdsound()
+    {
+        if(isplay3)
+        {
+            birdfun3();
+        }
+       else{
+           birdfun2();
+       }
+    }
+
+</script>
+    <script src="logic.js"></script>
+</body>

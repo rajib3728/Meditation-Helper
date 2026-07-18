@@ -10,6 +10,7 @@ function openmainpage() {
     window.close("work2.html");
     window.close("login.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
 }
 
 function openworkpage() {
@@ -24,7 +25,7 @@ function openworkpage() {
     window.close("login.html");
     window.close("concentration.html");
     window.close("main.html");
-
+   window.close("naturemusic.html");
 }
 
 function openworkpage2()
@@ -40,6 +41,7 @@ function openworkpage2()
     window.close("login.html");
     window.close("concentration.html");
     window.close("main.html");
+    window.close("naturemusic.html");
 }
 function openhome() {
     window.open("index.html");
@@ -53,6 +55,7 @@ function openhome() {
     window.close("login.html");
     window.close("concentration.html");
     window.close("main.html");
+    window.close("naturemusic.html");
 }
 function openlevel(){
      window.open("main.html");
@@ -66,6 +69,7 @@ function openlevel(){
     window.close("login.html");
     window.close("work.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
 }
 function page1() {
     window.open("page1.html");
@@ -79,6 +83,7 @@ function page1() {
     window.close("login.html");
     window.close("main.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
 }
 function page2() {
     window.open("page2.html");
@@ -92,6 +97,7 @@ function page2() {
     window.close("login.html");
     window.close("main.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
 }
 function page3() {
     window.open("page3.html");
@@ -105,6 +111,7 @@ function page3() {
     window.close("login.html");
     window.close("main.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
    
 }
 function page4() {
@@ -120,6 +127,7 @@ function page4() {
     window.close("login.html");
     window.close("main.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
 }
 function page5() {
     window.open("page5.html");
@@ -133,6 +141,7 @@ function page5() {
     window.close("work2.html");
     window.close("login.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
 }
 
 function login1() {
@@ -147,6 +156,7 @@ function login1() {
     Window.close("work.html");
     window.close("main.html");
     window.close("concentration.html");
+    window.close("naturemusic.html");
 
 }
 
