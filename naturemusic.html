@@ -90,6 +90,12 @@ These auditory illusions, created by playing two slightly different frequencies 
 
          var x1=document.getElementById("waterdrop");
           var x2=document.getElementById("textstatus1");
+          var y1=document.getElementById("rain");
+          var y2=document.getElementById("textstatus1");
+          var z1=document.getElementById("river");
+          var z2=document.getElementById("textstatus1");
+          var a1=document.getElementById("birds");
+          var a2=document.getElementById("textstatus1");
      let isplay=false;
     function waterdropfun2()
     {
@@ -113,9 +119,11 @@ These auditory illusions, created by playing two slightly different frequencies 
        else{
            waterdropfun2();
        }
+       y1.pause();
+       z1.pause();
+       a1.pause();
     }
-    var y1=document.getElementById("rain");
-          var y2=document.getElementById("textstatus1");
+    
      let isplay1=false;
     function rainfun2()
     {
@@ -139,9 +147,11 @@ These auditory illusions, created by playing two slightly different frequencies 
        else{
            rainfun2();
        }
+       z1.pause();
+       a1.pause();
+       x1.pause();
     }
-    var z1=document.getElementById("river");
-          var z2=document.getElementById("textstatus1");
+    
      let isplay2=false;
     function riverfun2()
     {
@@ -165,9 +175,11 @@ These auditory illusions, created by playing two slightly different frequencies 
        else{
            riverfun2();
        }
+         x1.pause();
+         y1.pause();
+         a1.pause();
     }
-    var a1=document.getElementById("birds");
-          var a2=document.getElementById("textstatus1");
+    
      let isplay3=false;
     function birdfun2()
     {
@@ -191,6 +203,10 @@ These auditory illusions, created by playing two slightly different frequencies 
        else{
            birdfun2();
        }
+       x1.pause();
+         y1.pause();    
+          z1.pause();
+
     }
 
 </script>
